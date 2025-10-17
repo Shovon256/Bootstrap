@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollspy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</head openssl dgst -sha384 -binary bootstrap.min.js | openssl base64 -A>
+
+<body>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 sticky-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">First</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0"
+        style="height: 200vh; width: 200;">
+        <h4 id="scrollspyHeading1">Lamborghini</h4>
+        <p>Automobili Lamborghini S.p.A. (/ˌlæmbərˈɡiːni/ LAM-bər-GHEE-nee, Italian: [autoˈmɔːbili lamborˈɡiːni]),
+            usually referred to as Lamborghini or colloquially Lambo, is an Italian manufacturer of luxury sports cars
+            and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary
+            Audi.
+
+            Ferruccio Lamborghini (1916–1993), an Italian manufacturing magnate, founded Automobili Ferruccio
+            Lamborghini S.p.A. in 1963 to compete with Ferrari. The company was noted for using a rear mid-engine,
+            rear-wheel drive layout. Lamborghini grew rapidly during its first decade, but sales plunged in the wake of
+            the 1973 worldwide financial downturn and the oil crisis. The firm's ownership changed three times after
+            1973, including a bankruptcy in 1978. American Chrysler Corporation took control of Lamborghini in 1987 and
+            sold it to Malaysian investment group Mycom Setdco and Indonesian group V'Power Corporation in 1994. In
+            1998, Mycom Setdco and V'Power sold Lamborghini to the Volkswagen Group where it was placed under the
+            control of the group's Audi division.
+
+            New products and model lines were introduced to the brand's portfolio and brought to the market and saw an
+            increased productivity for the brand. In the late 2000s, during the Great Recession, Lamborghini's sales
+            dropped nearly 50%.
+
+            Lamborghini currently produces twin-turbo V8 plug-in Hybrid Temerario, the Urus SUV powered by a twin-turbo
+            V8 engine, and the Revuelto, a V12/electric hybrid, as of 2025. In addition, the company produces V12
+            engines for offshore powerboat racing.
+
+            Lamborghini Trattori, founded in 1948 by Ferruccio Lamborghini, is headquartered in Pieve di Cento, Italy,
+            and continues to produce tractors. Since 1973, Lamborghini Trattori has been a separate entity from the
+            Lamborghini's automobile division.
+
+            History
+            Main article: History of Lamborghini
+
+            Ferruccio Lamborghini with a Jarama and a tractor of his brand
+            Manufacturing magnate Italian Ferruccio Lamborghini founded the company in 1963 with the objective of
+            producing a refined grand touring car to compete with offerings from established marques such as Ferrari.
+            The company's first models, such as the 350 GT, were released in the mid-1960s. Lamborghini was noted for
+            the 1966 Miura sports coupé, which used a rear mid-engine, rear-wheel drive layout.
+
+            In 1963, Ferruccio Lamborghini, already an established industrialist who manufactured tractors, boilers, and
+            air conditioners, founded Lamborghini Automobili on May 7, 1963.[5]
+
+            The company was headquartered in a purpose-built facility in Sant'Agata Bolognese. He surrounded himself
+            with highly capable engineers and technicians: Giotto Bizzarrini designed the engine, Gian Paolo Dallara and
+            Paolo Stanzani developed the chassis, and Franco Scaglione designed the bodywork. The first model, the 350
+            GTV, was not a success due to its futuristic style and remained a one-off prototype. The project was then
+            handed over to the Milanese coachbuilder Touring, which created a more classic and sober design. The new
+            car, named the 350 GT, was a fast and elegant two-seater grand tourer (according to Ferruccio's standards)
+            and was the first series-produced car by Lamborghini. It achieved moderate sales success and was followed by
+            the 400 GT (which benefited from an increased engine capacity) and the 400 GT 2+2, both presented in 1966.
+
+            Lamborghini grew rapidly during its first ten years, but sales fell in the wake of the 1973 worldwide
+            financial downturn and the oil crisis. Ferruccio Lamborghini sold the company to Georges-Henri Rossetti and
+            René Leimer and retired in 1974. The company went bankrupt in 1978, and was placed in the receivership of
+            brothers Jean-Claude and Patrick Mimran in 1980. The Mimrans purchased the company out of receivership by
+            1984 and invested heavily in its expansion. Under the Mimrans' management, Lamborghini's model line was
+            expanded from the Countach to include the Jalpa sports car and the LM002 high-performance off-road vehicle.
+
+            The Mimrans sold Lamborghini to the Chrysler Corporation in 1987. After replacing the Countach with the
+            Diablo and discontinuing the Jalpa and the LM002, Chrysler sold Lamborghini to Malaysian investment group
+            Mycom Setdco and Indonesian group V'Power Corporation in 1994. In 1998, Mycom Setdco and V'Power sold
+            Lamborghini to the Volkswagen Group where it was placed under the control of the group's Audi division. New
+            products and model lines were introduced to the brand's portfolio and brought to the market and saw an
+            increased productivity for the brand Lamborghini. In the late 2000s, during the Great Recession,
+            Lamborghini's sales dropped nearly 50%.</p>
+        <h4 id="scrollspyHeading2">Ferrari</h4>
+        <p>Ferrari S.p.A. (/fəˈrɑːri/; Italian: [ferˈraːri]) is an Italian luxury sports car manufacturer based in
+            Maranello. Founded in 1939 by Enzo Ferrari (1898–1988), the company built its first car in 1940, adopted its
+            current name in 1945, and began to produce its current line of road cars in 1947. Ferrari became a public
+            company in 1960, and from 1963 to 2014 it was a subsidiary of Fiat S.p.A. It was spun off from Fiat's
+            successor entity, Fiat Chrysler Automobiles, in 2016. The company currently offers a large model range which
+            includes several supercars, grand tourers, and one SUV. Many early Ferraris, dating to the 1950s and 1960s,
+            count among the most expensive cars ever sold at auction.
+
+            Throughout its history, the company has been noted for its continued participation in racing, especially in
+            Formula One, where its team, Scuderia Ferrari, is the series' single oldest and most successful. Scuderia
+            Ferrari has raced since 1929, first in Grand Prix events and later in Formula One, where it holds many
+            records. Historically, Ferrari was also highly active in sports car racing, where its cars took many wins in
+            races such as the Mille Miglia, Targa Florio and 24 Hours of Le Mans, as well as several overall victories
+            in the World Sportscar Championship. Scuderia Ferrari fans, commonly called tifosi, are known for their
+            passion and loyalty to the team.
+
+            Ferrari is one of the world's strongest brands, and it maintains a brand image built around racing heritage,
+            luxury, and exclusivity. As of May 2023, Ferrari is also one of the largest car manufacturers by market
+            capitalisation, with a value of approximately US$85.5 billion.[7]
+
+            History
+            Main article: History of Ferrari
+            Early history
+
+            Three Scuderia Ferrari cars in 1934, all Alfa Romeo P3s. Drivers, left to right: Achille Varzi, Louis
+            Chiron, and Carlo Felice Trossi.
+            Enzo Ferrari, formerly a salesman and racing driver for Alfa Romeo, founded Scuderia Ferrari, a racing team,
+            in 1929. Originally intended to service gentleman drivers and other amateur racers, Alfa Romeo's withdrawal
+            from racing in 1933, combined with Enzo's connections within the company, turned Scuderia Ferrari into its
+            unofficial representative on the track.[8] Alfa Romeo supplied racing cars to Ferrari, who eventually
+            amassed some of the best drivers of the 1930s and won many races before the team's liquidation in
+            1937.[8][9]: 43 
+
+            Late in 1937, Scuderia Ferrari was liquidated and absorbed into Alfa Romeo,[8] but Enzo's disagreements with
+            upper management caused him to leave in 1939. He used his settlement to found his own company, where he
+            intended to produce his own cars. He called the company "Auto Avio Costruzioni", and headquartered it in the
+            facilities of the old Scuderia Ferrari;[1] due to a noncompete agreement with Alfa Romeo, the company could
+            not use the Ferrari name for another four years. The company produced a single car, the Auto Avio
+            Costruzioni 815, which participated in only one race before the outbreak of World War II. During the war,
+            Enzo's company produced aircraft engines and machine tools for the Italian military; the contracts for these
+            goods were lucrative, and provided the new company with a great deal of capital. In 1943, under threat of
+            Allied bombing raids, the company's factory was moved to Maranello. Though the new facility was nonetheless
+            bombed twice, Ferrari remains in Maranello to this day.[1][9]: 45–47 [10]
+
+            Under Enzo Ferrari
+
+            Ferrari's factory in the early 1960s: everything in its production line was handmade by machinists, who
+            followed technical drawings with extreme precision.[11] Much of this work is now done by industrial
+            robots.[12]
+            In 1945, Ferrari adopted its current name. Work started promptly on a new V12 engine that would power the
+            125 S, which was the marque's first car, and many subsequent Ferraris. The company saw success in motorsport
+            almost as soon as it began racing: the 125 S won many races in 1947,[13][14] and several early victories,
+            including the 1949 24 Hours of Le Mans and 1951 Carrera Panamericana, helped build Ferrari's reputation as a
+            high-quality automaker.[15][16] Ferrari won several more races in the coming years,[17][18] and early in the
+            1950s its road cars were already a favourite of the international elite.[19] Ferrari produced many families
+            of interrelated cars, including the America, Monza, and 250 series, and the company's first series-produced
+            car was the 250 GT Coupé, beginning in 1958.[20]
+
+            In 1960, Ferrari was reorganized as a public company. It soon began searching for a business partner to
+            handle its manufacturing operations: it first approached Ford in 1963, though negotiations fell through;
+            later talks with Fiat, who bought 50% of Ferrari's shares in 1969, were more successful.[21][22] In the
+            second half of the decade, Ferrari also produced two cars that upended its more traditional models: the 1967
+            Dino 206 GT, which was its first mass-produced mid-engined road car,[a] and the 1968 365 GTB/4, which
+            possessed streamlined styling that modernised Ferrari's design language.[25][26] The Dino in particular was
+            a decisive movement away from the company's conservative engineering approach, where every road-going
+            Ferrari featured a V12 engine placed in the front of the car, and it presaged Ferrari's full embrace of
+            mid-engine architecture, as well as V6 and V8 engines, in the 1970s and 1980s.[25]
+
+            Contemporary
+            Enzo Ferrari died in 1988, an event that saw Fiat expand its stake to 90%.[27] The last car that he
+            personally approved—the F40—expanded on the flagship supercar approach first tried by the 288 GTO four years
+            earlier.[28] Enzo was succeeded in 1991 by Luca Cordero di Montezemolo, under whose 23-year-long
+            chairmanship the company greatly expanded. Between 1991 and 2014, he increased the profitability of
+            Ferrari's road cars nearly tenfold, both by increasing the range of cars offered and through limiting the
+            total number produced. Montezemolo's chairmanship also saw an expansion in licensing deals, a drastic
+            improvement in Ferrari's Formula One performance (not least through the hiring of Michael Schumacher and
+            Jean Todt), and the production of three more flagship cars: the F50, the Enzo, and the LaFerrari. In
+            addition to his leadership of Ferrari, Montezemolo was also the chairman of Fiat proper between 2004 and
+            2010.[29]
+
+            After Montezemolo resigned, he was replaced in quick succession by many new chairmen and CEOs. He was
+            succeeded first by Sergio Marchionne,[29] who would oversee Ferrari's initial public offering and subsequent
+            spin-off from Fiat Chrysler Automobiles,[30][31] and then by Louis Camilleri as CEO and John Elkann as
+            chairman.[32] Beginning in 2021, Camilleri was replaced as CEO by Benedetto Vigna, who has announced plans
+            to develop Ferrari's first fully electric model.[33] During this period, Ferrari has expanded its
+            production, owing to a global increase in wealth, while becoming more selective with its licensing
+            deals.[34][35]</p>
+        <h4 id="scrollspyHeading3">Porsche</h4>
+        <p>
+            Motorsport
+            Pronunciation
+            Reputation
+
+            Reliability
+            See also
+            Notes
+            References
+
+            External links
+            Porsche
+
+            Article
+            Talk
+            Read
+            View source
+            View history
+
+            Tools
+            Appearance hide
+            Text
+
+            Small
+
+            Standard
+
+            Large
+            Width
+
+            Standard
+
+            Wide
+            Color (beta)
+
+            Automatic
+
+            Light
+
+            Dark
+            Page semi-protected
+            From Wikipedia, the free encyclopedia
+            This article is about the automotive brand and manufacturer, Porsche AG. For the holding company that is the
+            majority owner of Volkswagen Group, see Porsche SE. For other uses of Porsche, see Porsche (disambiguation).
+            Dr. Ing. h.c. F. Porsche AG
+
+
+            Headquarters in Stuttgart
+            Company type Public (Aktiengesellschaft)
+            Traded as FWB: P911[1]
+            DAX component
+            ISIN DE000PAG9113
+            Industry Automotive
+            Founded 1931; 94 years ago in Stuttgart, Germany
+            Founder Ferdinand Porsche
+            Headquarters Stuttgart, Germany
+            Area served Worldwide
+            Key people
+            Wolfgang Porsche (chairman)
+            Oliver Blume (CEO)[2]
+            Products Automobiles
+            Production output Decrease 302,750 vehicles (2024)[3]
+            Services Automotive financial services, engineering services, investment management
+            Revenue Decrease €40.083 billion (2024)[3]
+            Operating income Decrease €5.637 billion (2024)[3]
+            Net income Decrease €3.595 billion (2024)[3]
+            Total assets Increase €53.527 billion (2024)[3]
+            Total equity Increase €23.056 billion (2024)[3]
+            Owners
+            Volkswagen AG (75.4%)
+            Porsche SE (12.5%)
+            QIA (2.5%)[4]
+            Number of employees 42,615 (2024)[3]
+            Subsidiaries
+            Porsche Design
+            Porsche Engineering
+            MHP Management- und IT-Beratung
+            Bugatti Rimac (45%)
+            Website www.porsche.com
+            Dr. Ing. h.c. F. Porsche AG, usually shortened to Porsche (German pronunciation: [ˈpɔʁʃə] ⓘ; see below), is
+            a German automobile manufacturer specializing in luxury, high-performance sports cars, SUVs and sedans,
+            headquartered in Stuttgart, Baden-Württemberg, Germany. The company is owned by Volkswagen AG, a controlling
+            stake of which is owned by Porsche Automobil Holding SE, usually shortened to Porsche SE. Porsche's current
+            lineup includes the 718, 911, Panamera, Macan, Cayenne and Taycan.
+
+            The origins of the company date to the 1930s when German Bohemian automotive engineer Ferdinand Porsche
+            founded Porsche[5] with Adolf Rosenberger, a keystone figure in the creation of German automotive
+            manufacturer and Audi precursor Auto Union,[6] and Austrian businessman Anton Piëch, who was, at the time,
+            also Ferdinand Porsche's son in law. In its early days, it was contracted by the German government to create
+            a vehicle for the masses, which later became the Volkswagen Beetle.[7] After World War II, when Ferdinand, a
+            member of both the Nazi Party and the SS, would be arrested for war crimes, his son Ferry Porsche, an SS
+            volunteer, began building his own car, which would result in the Porsche 356.
+
+            In 2009, Porsche entered an agreement with Volkswagen to create an 'integrated working group' by merging the
+            two companies' car manufacturing operations.[8][9] By 2015, Porsche SE, the holding company spun off from
+            the original Porsche firm, had a controlling interest in the Volkswagen Group, which included Audi and
+            Lamborghini as subsidiaries.[10]
+
+            History
+            Origin
+            Ferdinand Porsche (1875–1951) founded the company called "Dr. Ing. h. c. F. Porsche GmbH"[5] with Adolf
+            Rosenberger[11] and Anton Piëch in 1931.[12] The name is short for Ferdinand Porsche's full title in German,
+            Doktor-Ingenieur honoris causa (lit. 'Doctor of Engineering, Honorary Degree').[13] The main offices was at
+            Kronenstraße 24 in the centre of Stuttgart.[14] Initially, the company offered motor vehicle development
+            work and consulting,[5] but did not build any cars under its own name. One of the first assignments the new
+            company received was from the German government to design a car for the people; that is, a Volkswagen.[5]
+            This resulted in the Volkswagen Beetle, one of the most successful car designs of all time.[7] Later, the
+            Porsche 64 would be developed in 1939 using many components from the Beetle.[5]
+
+
+            Porsche's tank prototype, the "Porsche Tiger", that lost to Henschel & Son's Tiger I
+
+            Panzerjäger Elefant – after the loss of the contract to the Tiger I, Porsche recycled his design into a tank
+            destroyer.
+            During World War II,[15] Volkswagen production turned to the military version of the Volkswagen Beetle, the
+            Kübelwagen,[15] 52,000 produced, and Schwimmwagen,[15] 15,584 produced.[16] Porsche produced several designs
+            for heavy tanks during the war, losing out to Henschel & Son in both contracts that ultimately led to the
+            Tiger I and the Tiger II. However, not all this work was wasted, as the chassis Porsche designed for the
+            Tiger I was used as the base for the Elefant tank destroyer. Porsche also developed the Maus super-heavy
+            tank in the closing stages of the war, producing two prototypes.[17] Ferdinand Porsche's biographer, Fabian
+            Müller, wrote that Porsche had thousands of people forcibly brought to work at their factories during the
+            war. The workers wore the letter "P" on their clothing at all times. It stood not for "Porsche", but for
+            "Poland".[18]
+
+            At the end of World War II in 1945, the Volkswagen factory at KdF-Stadt fell to the British. Ferdinand lost
+            his position as chairman of the board of management of Volkswagen, and Ivan Hirst, a British Army major, was
+            put in charge of the factory.[a] On 15 December of that year, Ferdinand was arrested for war crimes, but not
+            tried. During his 20-month imprisonment, Ferdinand Porsche's son, Ferry Porsche, decided to build his own
+            car, because he could not find an existing one that he wanted to buy. He also had to steer the company
+            through some of its most difficult days until his father's release in August 1947.[20]
+
+            The first models of what was to become the 356 were built in a small sawmill in Gmünd, Austria.[20] The
+            prototype car was shown to German auto dealers, and when pre-orders reached a set threshold, production
+            (with aluminum body) was begun by Porsche Konstruktionen GesmbH, founded by Ferry and Louise. Many regard
+            the 356 as the first Porsche simply because it was the first model sold by the fledgling company. After
+            production of the 356 was taken over by the father's Dr. Ing. h.c. F. Porsche GmbH in Stuttgart in 1950,
+            Porsche commissioned a Zuffenhausen-based company, Reutter Karosserie, which had previously collaborated
+            with the firm on Volkswagen Beetle prototypes, to produce the 356's steel body. In 1952, Porsche constructed
+            an assembly plant (Werk 2) across the street from Reutter Karosserie; the main road in front of Werk 1, the
+            oldest Porsche building, is now known as Porschestraße.[21] The 356 was road-certified in 1948.
+
+            Company logo
+            Coat of arms of Württemberg during the Weimar-era
+            Coat of arms of Württemberg during the Weimar-era
+
+            Coat of arms of Stuttgart
+            Coat of arms of Stuttgart
+            Porsche's company logo stems from the coat of arms of the Free People's State of Württemberg of Weimar
+            Germany of 1918–1933, which had Stuttgart as its capital. (The Bundesland of Württemberg-Hohenzollern used
+            the same arms from 1945 to 1952, while Stuttgart during these years operated as the capital of adjacent
+            Württemberg-Baden.) The arms of Stuttgart appear in the middle of the logo as an inescutcheon, for the
+            company had its headquarters in Stuttgart. The heraldic symbols, combined with the texts "Porsche" and
+            "Stuttgart", do not form a conventional coat of arms, since heraldic achievements never spell out the name
+            of the armiger nor the armiger's home town in the shield.
+
+            Württemberg-Baden and Württemberg-Hohenzollern both in 1952 became part of the present Bundesland of
+            Baden-Württemberg after the political consolidation of West Germany in 1949, but the old design of the arms
+            of Württemberg lives on in the Porsche logo. On 30 January 1951, not long before the formation of
+            Baden-Württemberg, Ferdinand Porsche died from complications following a stroke.
+
+            Developments
+
+            1952 Porsche 356 K/9-1 prototype
+            In post-war Germany, parts were generally in short supply, so the 356 automobile used components from the
+            Volkswagen Beetle, including the engine case from its internal combustion engine, transmission, and several
+            parts used in the suspension. The 356, however, had several evolutionary stages, A, B, and C, while in
+            production, and most Volkswagen-sourced parts were replaced by Porsche-made parts. Beginning in 1954 the
+            356s engines started utilizing engine cases designed specifically for the 356. The sleek bodywork was
+            designed by Erwin Komenda, who also had designed the body of the Beetle. Porsche's signature designs have,
+            from the beginning, featured air-cooled rear-engine configurations (like the Beetle), rare for other car
+            manufacturers, but producing automobiles that are very well balanced.
+
+            In 1964, after a fair amount of success in motor-racing with various models including the 550 Spyder, and
+            with the 356 needing a major re-design, the company launched the Porsche 911: another air-cooled,
+            rear-engined sports car, this time with a six-cylinder "boxer" engine. The team to lay out the body shell
+            design was led by Ferry Porsche's eldest son, Ferdinand Alexander Porsche (F. A.). The design phase for the
+            911 caused internal problems with Erwin Komenda, who led the body design department until then. F. A.
+            Porsche complained Komenda made unauthorized changes to the design. Company leader Ferry Porsche took his
+            son's drawings to neighbouring chassis manufacturer Reuter. Reuter's workshop was later acquired by Porsche
+            (so-called Werk 2). Afterward, Reuter became a seat manufacturer, today known as Keiper-Recaro.
+
+
+            The Porsche 912, from the 1960s
+            The design office gave sequential numbers to every project (See Porsche type numbers), but the designated
+            901 nomenclature contravened Peugeot's trademarks on all 'x0x' names, so it was adjusted to 911. Racing
+            models adhered to the "correct" numbering sequence: 904, 906, 908. The 911 has become Porsche's most
+            well-known model – successful on the race-track, in rallies, and in terms of road car sales. It remains in
+            production; however, after several generations of revision, current-model 911s share only the basic
+            mechanical configuration of a rear-engined, six-cylinder coupé, and basic styling cues with the original
+            car. A cost-reduced model with the same body, but with a 356-derived four-cylinder engine, was sold as the
+            912.
+
+            In 1972, the company's legal form was changed from Kommanditgesellschaft (KG), or limited partnership, to
+            Aktiengesellschaft (AG), or public limited company, because Ferry Porsche came to believe the scale of the
+            company outgrew a "family operation", after learning about Soichiro Honda's "no family members in the
+            company" policy at Honda. This led to the establishment of an executive board with members from outside the
+            Porsche family, and a supervisory board consisting largely of family members. With this change, most family
+            members in the operation of the company, including F. A. Porsche and Ferdinand Piëch, departed from the
+            company.
+
+            F. A. Porsche founded his own design company, Porsche Design, which is renowned for exclusive sunglasses,
+            watches, furniture, and many other luxury articles. Louise's son and Ferry's nephew Ferdinand Piëch, who was
+            responsible for mechanical development of Porsche's production and racing cars (including the very
+            successful 911, 908 and 917 models), formed his own engineering bureau, and developed a five-cylinder-inline
+            diesel engine for Mercedes-Benz. A short time later he moved to Audi (used to be a division, then a
+            subsidiary, of Volkswagen), and pursued his career through the entire company, ultimately becoming the
+            chairman of Volkswagen Group.
+
+            The first chief executive officer (CEO) of Porsche AG was Ernst Fuhrmann, who had been working in the
+            company's engine development division. Fuhrmann was responsible for the so-called Fuhrmann-engine, used in
+            the 356 Carrera models as well as the 550 Spyder, having four overhead camshafts instead of a central
+            camshaft with pushrods, as in the Volkswagen-derived serial engines. He planned to cease the 911 during the
+            1970s and replace it with the V8-front engined grand sportswagon 928. As we know today, the 911 outlived the
+            928 by far. Fuhrmann was replaced in the early 1980s by Peter W. Schutz, an American manager and
+            self-proclaimed 911 aficionado. He was then replaced in 1988 by the former manager of German computer
+            company Nixdorf Computer AG, Arno Bohn, who made some costly miscalculations that led to his dismissal soon
+            after, along with that of the development director, Ulrich Bez, who was formerly responsible for BMW's Z1
+            model, and was CEO of Aston Martin from 2000 to 2013.[22]
+
+
+            Porsche 911 (964), introduced in 1989, was the first to be offered with Porsche's Tiptronic transmission and
+            four-wheel drive.
+            In 1990, Porsche drew up a memorandum of understanding with Toyota to learn and benefit from Japanese lean
+            manufacturing methods. In 2004 it was reported that Toyota was assisting Porsche with hybrid technology.[23]
+
+            Following the dismissal of Bohn, Heinz Branitzki, a longtime Porsche employee, was appointed as interim CEO.
+            Branitzki served in that position until Wendelin Wiedeking became CEO in 1993. Wiedeking took over the
+            chairmanship of the board at a time when Porsche appeared vulnerable to a takeover by a larger company.
+            During his long tenure, Wiedeking transformed Porsche into a very efficient and profitable company.
+
+            Ferdinand Porsche's nephew, Ferdinand Piëch, was chairman and CEO of the Volkswagen Group from 1993 to 2002
+            and is chairman of the Volkswagen AG Supervisory Board since then. With 12.8 percent of the Porsche SE
+            voting shares, he also remains the second-largest individual shareholder of Porsche SE after his cousin, F.
+            A. Porsche, which had 13.6 percent.
+
+            Porsche's 2002 introduction of the Cayenne also marked the unveiling of a new production facility in
+            Leipzig, Saxony, which once accounted for nearly half of Porsche's annual output. In 2004, production of the
+            456 kilowatts (620 PS; 612 bhp) Carrera GT commenced in Leipzig, and at EUR 450,000 ($440,000 in the United
+            States) it was the most expensive production model Porsche ever built.
+
+
+            Porsche 911 (991)
+            In mid-2006, after years of the Boxster (and later the Cayenne) as the best selling Porsche in North
+            America, the 911 regained its position as Porsche's best-seller in the region. The Cayenne and 911 have
+            cycled as the top-selling model since. In Germany, the 911 outsells the Boxster/Cayman and Cayenne.[24]
+
+            In May 2011, Porsche Cars North America announced plans to spend $80–$100 million, but will receive about
+            $15 million in economic incentives to move their North American headquarters from Sandy Springs, a suburb of
+            Atlanta, to Aerotropolis Atlanta, a new mixed-use development on the site of the old Ford Hapeville plant
+            adjacent to Hartsfield–Jackson Atlanta International Airport.[25] Designed by architectural firm HOK, the
+            headquarters will include a new office building and test track.[26][27][28] The facility will be known by
+            its new address, One Porsche Drive.
+
+            In October 2017, Porsche Cars North America announced the launch of Porsche Passport,[29] a new sports car
+            and SUV subscription program. This new offering allows consumers to access Porsche vehicles through
+            subscribing to the service, rather than owning or leasing a vehicle. The Porsche Passport service was
+            available initially in Atlanta,[30][31] and has become available in many major cities across the US.[32]
+
+            During the COVID-19 pandemic, in March 2020, Porsche suspended its manufacturing in Europe for two weeks,
+            "By taking this step, the sports car manufacturer is responding to the significant acceleration in the rate
+            of infection caused by the coronavirus and the resultant measures implemented by the relevant
+            authorities."[33]
+
+            In August 2022, Bloomberg News reported that Porsche has lined up interest in subscription of its initial
+            public offering for a valuation between US$60–85 billion. It is expected to be listed on Frankfurt Stock
+            Exchange in September.[34]
+
+            Relationship with Volkswagen
+
+            Combined badging of the European 914
+            The company has always had a close relationship with, initially, the Volkswagen (VW) marque, and later, the
+            Volkswagen Group (which also owns Audi AG), because the first Volkswagen Beetle was designed by Ferdinand
+            Porsche.
+
+            The two companies collaborated in 1969 to make the VW-Porsche 914 and 914-6, whereby the 914-6 had a Porsche
+            engine, and the 914 had a Volkswagen engine. Further collaboration in 1976 resulted in the Porsche 912E (US
+            only) and the Porsche 924, which used many Audi components, and was built at Audi's Neckarsulm factory,
+            which had been NSU's. Porsche 944s were also built there,[35] although they used far fewer Volkswagen
+            components. The Cayenne, introduced in 2002, shares its chassis with the Volkswagen Touareg and the Audi Q7,
+            which is built at the Volkswagen Group factory in Bratislava, Slovakia.
+
+            Corporate restructuring
+
+            Porsche Design Tower, Stuttgart
+
+            A 991 in front of the factory in which it was assembled, Porsche-Werk Stuttgart (right), and the
+            manufacturer's central dealership, Porsche Zentrum Stuttgart (left)
+
+            Porsche board members Oliver Blume, Detlev von Platen, Michael Steiner ...
+
+            ... Uwe-Karsten Städter, Albrecht Reimold and Andreas Haffner (left to right)
+            Porsche SE was created in June 2007 by renaming the old Dr. Ing. h.c. F. Porsche AG, and became a holding
+            company for the families' stake in Porsche Zwischenholding GmbH (50.1%) (which in turn held 100% of the old
+            Porsche AG) and Volkswagen AG (50.7%).[36][9] At the same time, the new Dr. Ing. h.c. F. Porsche AG (Porsche
+            AG) was created for the car manufacturing business.
+
+            In August 2009, Porsche SE and Volkswagen AG reached an agreement that the car manufacturing operations of
+            the two companies would merge in 2011, to form an "Integrated Automotive Group".[8][37] The management of
+            Volkswagen AG agreed to 50.76% of Volkswagen AG being owned by Porsche SE in return for Volkswagen AG
+            management taking Porsche SE management positions (in order for Volkswagen management to remain in control),
+            and for Volkswagen AG acquiring ownership of Porsche AG.
+
+            As of the end of 2015, the 52.2% control interest in Volkswagen AG is the predominant investment by Porsche
+            SE, and VW AG in turn controls brands and companies such as Volkswagen, Audi, SEAT, Škoda, Bentley, Bugatti,
+            Lamborghini, Porsche AG, Ducati, Volkswagen Commercial Vehicles, Scania, MAN, as well as Volkswagen
+            Financial Services.[10]
+
+            Porsche AG, as a 100% subsidiary of VW AG, is responsible for the actual production and manufacture of the
+            Porsche automobile line. The company currently produces Porsche 911,[38] Boxster and Cayman sports cars, the
+            Cayenne and Macan sport utility vehicles and the four-door Panamera.
+
+            In addition to its subsidiaries Porsche Design and Porsche Engineering, Porsche AG owns the consulting firm
+            MHP Management- und IT-Beratung, which was fully acquired by January 2024.[39] Porsche also has a 29% share
+            in German engineering and design consultancy Bertrandt AG.[40][41] In 2018, Porsche acquired a 10% minority
+            shareholding stake of the Croatian electric sportscar manufacturer Rimac Automobili to form a development
+            partnership.[42][43]
+
+            Initial public offering
+            In February 2022, Volkswagen AG had announced that it would examine the feasibility of a possible IPO of
+            Porsche AG.[44] The share capital of Porsche AG has been divided into 50% non-voting preference shares and
+            50% ordinary shares.[44][4] Volkswagen AG will retain 75% of ordinary shares, while Porsche SE will acquire
+            25% of ordinary shares. Volkswagen AG will also retain 75% of preference shares, while 25% of preference
+            shares (12.5% of share capital) will be sold during IPO,[44] while Qatar Investment Authority has already
+            committed to buy 4.99% of preference shares, leaving another 20.01% (10% of share capital), to other
+            investors.[4] As part of the preliminary offering, 113,875 thousand shares were sold at the upper limit of
+            the price range - 82.5 euros. Thus, the value of the company was estimated at 75 billion euros. In the first
+            hours of trading on the Frankfurt Stock Exchange on 29 September, the share price rose to 84 euros.[45]
+
+            Australian eFuel operations
+            Main article: Highly Innovative Fuels Australia
+            In April 2022, Porsche Australia announced they are planning to open an efuel manufacturing facility in the
+            island state of Tasmania. The plant will be the first of its type in the country. The facility is to be
+            named the HIF (Highly Innovative Fuels) Tasmania Carbon Neutral eFuel Plant. It is slated to open in
+            2026.[46]</p>
+        <h4 id="scrollspyHeading4">BMW</h4>
+        <p>Bayerische Motoren Werke Aktiengesellschaft,[3] trading as BMW Group (commonly abbreviated to BMW (German
+            pronunciation: [ˌbeːʔɛmˈveː] ⓘ), sometimes anglicised as Bavarian Motor Works), is a German multinational
+            manufacturer of luxury vehicles and motorcycles headquartered in Munich, Bavaria, Germany. The company was
+            founded in 1916 as a manufacturer of aircraft engines, which it produced from 1917 to 1918 and again from
+            1933 to 1945, creating engines for aircraft that were used in the Second World War.
+
+            The company's automobiles are marketed under the BMW, Mini and Rolls-Royce brands, and motorcycles are
+            marketed under the BMW Motorrad brand. In 2023, BMW was the world's ninth-largest producer of motor
+            vehicles, and the 6th largest by revenue,[4] with 2,555,341 vehicles produced in that year alone.[5] In
+            2023, the company was ranked 46th in the Forbes Global 2000.[6] The company has significant motor-sport
+            history, especially in touring cars, sports cars, and the Isle of Man TT.
+
+            BMW is headquartered in Munich and produces motor vehicles in Germany, the United Kingdom, the United
+            States, Brazil, Mexico, South Africa, India, China, and previously also in the Netherlands (ceased in
+            2023).[7] The Quandt family [de] is a long-term shareholder of the company, following investments by the
+            brothers Herbert and Harald Quandt in 1959, saved BMW from bankruptcy, with remaining shares owned by the
+            public.
+
+            History
+            Main article: History of BMW
+            The Otto Flugmaschinenfabrik was founded in 1910 by Gustav Otto in the Kingdom of Bavaria, which was a state
+            of the German Empire. The firm was reorganized on 7 March 1916 into Bayerische Flugzeugwerke AG. This
+            company was then renamed to Bayerische Motoren Werke (BMW) in 1922. However, the name BMW dates back to
+            1913, when a company using that name was founded by Karl Rapp initially as Rapp Motorenwerke. The name and
+            Rapp Motorenwerke's engine-production assets were transferred to Bayerische Flugzeugwerke in 1922, who
+            adopted the name the same year.[8] BMW's first product was an engine for fighter aircraft of the
+            Luftstreitkräfte. It was a straight-six called the BMW IIIa, designed in the spring of 1917 by engineer Max
+            Friz. Following the end of World War I, BMW remained in business by producing motorcycle engines,
+            agricultural equipment, household items, and railway brakes. The company produced its first motorcycle, the
+            BMW R 32, in 1923.
+
+            BMW became an automobile manufacturer in 1928 when it purchased Fahrzeugfabrik Eisenach, which, at the time,
+            built the Austin 7 under licence from Automobilwerk Eisenach, badged as the Dixi.[9] The first car sold as a
+            BMW was a rebadged Dixi called the BMW 3/15, following BMW's acquisition of the car manufacturer
+            Automobilwerk Eisenach. Throughout the 1930s, BMW expanded its range into sports cars and larger luxury
+            cars.[10][11]
+
+            Aircraft engines, motorcycles, and automobiles would be BMW's main products until World War II. During the
+            war, BMW concentrated on building the BMW 801 aircraft engine using as many as 40,000 slave laborers.[12]
+            These consisted primarily of prisoners from Nazi concentration camps, most prominently Dachau. Motorcycles
+            remained as a side-line and automobile manufacture ceased altogether.
+
+            BMW's factories were heavily bombed during the war and its remaining West German facilities were banned from
+            producing motor vehicles or aircraft after the war. The company survived by making pots, pans, and bicycles.
+            In 1948, BMW restarted motorcycle production. BMW resumed car production in Bavaria in 1952 with the BMW 501
+            luxury saloon. The range of cars was expanded in 1955, through the production of the cheaper Isetta microcar
+            under licence. Slow sales of luxury cars and small profit margins from microcars, meant BMW was in serious
+            financial trouble and in 1959 the company was nearly taken over by rival Daimler-Benz.[13][14]
+
+            A large investment in BMW by Herbert Quandt and Harald Quandt resulted in the company surviving as a
+            separate entity. Günther Quandt was a well-known German industrialist and joined the Nazi party in 1933; he
+            made a fortune arming the German Wehrmacht, manufacturing weapons and batteries.[15] Many of his enterprises
+            were appropriated from Jewish owners under duress with minimal compensation. At least three of his
+            enterprises made extensive use of slave laborers, as many as 50,000 in all.[16] One of his battery factories
+            had its own on-site concentration camp, complete with gallows. Life expectancy for laborers was six
+            months.[16][17] While Quandt and BMW were not directly connected during the war, funds amassed in the Nazi
+            era by his father allowed Herbert Quandt to buy BMW.[12]
+
+            The relative success of the small BMW 700 assisted in the company's recovery, allowing them to develop the
+            New Class sedans.
+
+
+            1972 BMW 5 Series (1st generation)
+            The 1962 introduction of the BMW New Class compact sedans was the beginning of BMW's reputation as a leading
+            manufacturer of sport-oriented cars. Throughout the 1960s, BMW expanded its range by adding coupé and luxury
+            sedan models. The BMW 5 Series mid-size sedan range was introduced in 1972, followed by the BMW 3 Series
+            compact sedans in 1975, the BMW 6 Series luxury coupés in 1976 and the BMW 7 Series large luxury sedans in
+            1978.
+
+            The BMW M division released its first road car, the M1, a mid-engine supercar, in 1978. This was followed by
+            the BMW M5 in 1984 and the BMW M3 in 1986. Also in 1986, BMW introduced its first V12 engine in the 750i
+            luxury sedan. The 1989 BMW Z1 marked BMW's return to making a two-seat roadster, the 1995 BMW Z3 was their
+            first mass-production two-seat roadster, and the 1999 BMW X5 was the company's first entry into the SUV
+            market.
+
+            The company purchased the Rover Group in 1994, but the takeover was not successful and caused BMW large
+            financial losses. In 2000, BMW sold off most of the Rover brands, retaining only the Mini brand. In 1998,
+            BMW also acquired the rights to the Rolls-Royce brand from Vickers.
+
+            The first modern mass-produced turbocharged petrol engine was introduced in 2006 (from 1973 to 1975, BMW
+            built 1,672 units of a turbocharged BMW M10 engine for the BMW 02 Series),[18] with most engines switching
+            over to turbocharging over the 2010s. The first hybrid BMW was the 2010 BMW ActiveHybrid 7, and BMW's first
+            mass-production electric car was the BMW i3 city car, which was released in 2013, (from 1968 to 1972, BMW
+            built two battery-electric BMW 1602 Elektro saloons for the 1972 Olympic Games).[19] After many years of
+            establishing a reputation for sporting rear-wheel drive cars, BMW's first front-wheel drive car was the 2014
+            BMW 2 Series Active Tourer multi-purpose vehicle (MPV).
+
+            In March 2018, Daimler and BMW merged their mobility services.[20]
+
+            In August 2019, Oliver Zipse replaced Harald Krüger as the head of the BMW Group.[21]
+
+            21st century
+            In January 2021, BMW announced that its sales in 2020 fell by 8.4 percent due to the impact of COVID-19
+            pandemic restrictions. However, in the fourth quarter of 2020, BMW witnessed a rise of 3.2% in its
+            customers' demands.[22] This recovery was supported by the company's adoption of widely accepted
+            technologies and integration of third-party services such as Apple Pay and on-demand music as well as key
+            partnerships such as its collaboration with Daimler on autonomous driving.[23][24] Additionally, BMW's
+            strategic investment decisions which include localizing production of its SUVs to the Spartanburg plant in
+            the U.S., placed the group in a position to easily navigate trade challenges and shifting consumer
+            patterns.[23]
+
+            On 18 January 2022 BMW announced a BMW 7 Series (G11) special edition simply called "The Final V12",[25] the
+            last BMW series production vehicle to be fitted with a V-12 engine.[25]
+
+            On 5 October 2023 it was announced that BMW UK CEO Chris Brownridge would succeed Torsten Müller-Ötvös as
+            the CEO of Rolls-Royce starting 1 December 2023, as a result of Müller-Ötvös retiring.[26]
+
+            Branding
+
+            BMW badge on a 1931 Dixi
+
+            Flag of Bavaria
+
+            1970 BMW 2002ti Garmisch concept
+            Company name
+            BMW is an abbreviation for Bayerische Motoren Werke. This name is grammatically incorrect (in German,
+            compound words must not contain spaces), which is why the grammatically correct form of the name, Bayerische
+            Motorenwerke (German pronunciation: [ˈbaɪʁɪʃə moˈtoːʁənˌvɛʁkə] ⓘ) has been used in several publications and
+            advertisements in the past.[27][28] Bayerische Motorenwerke translates into English as Bavarian Motor
+            Works.[29] The suffix AG, short for Aktiengesellschaft, signifies an incorporated entity owned by
+            shareholders, thus akin to "Inc." (US) or PLC, "Public Limited Company" (UK).
+
+            The terms Beemer, Bimmer and Bee-em are sometimes used as slang for BMW in the English language[30][31] and
+            are sometimes used interchangeably for cars and motorcycles.[32][33][34]
+
+            Logo
+            The circular blue and white BMW logo or roundel evolved from the circular Rapp Motorenwerke company logo,
+            which featured a black ring bearing the company name surrounding the company logo,[35] an image of a horse
+            head on a plinth. BMW retained Rapp's black ring inscribed with the company name, but the interior of the
+            ring is quartered blue and white, reminiscent of the coat of arms and flag of Bavaria (which in turn are
+            based on the arms of the historic House of Wittelsbach, which ruled Bavaria for many centuries).[35] The
+            logo does not bear the distinctive lozenge shape found on the coat of arms, however, as local laws at the
+            time it was introduced forbade the use of state coats of arms on commercial logos.[36]
+
+            A persistent myth claims that the logo is based on the image of an airplane propeller spinning in a blue
+            sky. This myth likely stems from a 1929 BMW advertisement that depicted the logo superimposed on a rotating
+            propeller. However, the logo predates that advertisement by 12 years.[35][37]
+
+            The current iteration of the logo was introduced in 2020,[38] removing 3D effects that had been used in
+            previous renderings of the logo while removing the black outline encircling the rondel. The logo is used for
+            BMW's branding communications but it is not used on vehicles.[39][40]</p>
+        <h4 id="scrollspyHeading5">RollsRoyelse</h4>
+        <p>Rolls-Royce Motor Cars Limited is a British luxury automobile maker that has operated as a wholly owned
+            subsidiary of BMW AG since 2003 – as the exclusive manufacturer of Rolls-Royce-branded motor cars. The
+            company's administrative and production headquarters are located on the 42-acre (17 ha) Goodwood Estate in
+            Goodwood, West Sussex, England, United Kingdom.[3]
+
+            From 1906 to 2003, motor cars were manufactured and marketed under the Rolls-Royce brand by Rolls-Royce
+            Limited and Rolls-Royce Motors. The Rolls-Royce Motor Cars subsidiary of BMW AG has no direct relationship
+            to Rolls-Royce-branded vehicles produced before 2003, other than having briefly supplied components and
+            engines. The Bentley Motors Limited subsidiary of Volkswagen AG is the direct successor to Rolls-Royce
+            Motors and various other predecessor entities that produced Rolls-Royce and Bentley branded cars between the
+            foundation of each company and 2003, when the BMW-controlled entity started producing cars under the
+            Rolls-Royce brand.
+
+            The BBC called Rolls-Royce "probably one of the most recognised icons in the world", and that "the name
+            Rolls-Royce entered the English language as a superlative."[4]
+
+            The company's line of vehicles includes the Phantom, the top-of-the-line four-door saloon first offered in
+            2003 - as of January 2025, it is offered in two lengths; the smaller Ghost four-door saloon - also offered
+            in two lengths; the Cullinan SUV, and the Spectre coupé. The last being Rolls-Royce's first electric car.[5]
+
+            History
+
+            Spirit of Ecstasy, the bonnet mascot sculpture on Rolls-Royce cars
+            Rolls-Royce Motor Cars Limited was created as a wholly owned subsidiary of BMW in 1998 after BMW licensed
+            the rights to the Rolls-Royce brand name and logo from Rolls-Royce Holdings plc,[6] and acquired the rights
+            to the Spirit of Ecstasy and Rolls-Royce grille shape trademarks from Volkswagen AG. Rolls-Royce Motor Cars
+            Limited has been manufacturing Rolls-Royce branded cars since 2003.
+
+            Although the Rolls-Royce brand has been in use since 1906, the fate of the brand diverged between 1998 and
+            2003. In 2003, the Rolls-Royce Motor Cars subsidiary of BMW AG, which had been a major supplier to the brand
+            up to 2003, began manufacturing vehicles with the Rolls-Royce name. Volkswagen AG took ownership of the
+            Bentley name as well as previous Rolls-Royce production facilities and previous Rolls-Royce designs.
+
+            Former chief executive Torsten Müller-Ötvös joined the company in January 2010, with a pledge to regain the
+            quality standards that made Rolls-Royce famous. That year sales in China increased by 600%, making it the
+            company's second largest market after the US.[7]
+
+            On October 5, 2023, Rolls-Royce announced that Müller-Ötvös will be retiring as CEO on November 30 after 14
+            years. He is succeeded by Chris Brownridge, the former CEO of BMW UK, who became the company's new CEO on
+            December 1, 2023.[8][9] Müller-Ötvös was the company's longest serving CEO to date.
+
+            Ownership and licensing of trademarks
+
+            Rolls-Royce Motor Cars emblem
+            In 1998, Vickers decided to sell Rolls-Royce Motors. The most likely buyer was BMW, which already supplied
+            engines and other components for Rolls-Royce and Bentley cars, but BMW's final offer of £340 million was
+            beaten by Volkswagen's £430 million ($703 million).[10]
+
+            A stipulation in the ownership documents of Rolls-Royce dictated that Rolls-Royce Holdings plc, the
+            aero-engine maker, would retain certain essential trademarks, including the Rolls-Royce brand name and logo
+            if the automotive division was sold. Although Vickers plc sold the vehicle designs, nameplates,
+            administrative headquarters, production facilities, Spirit of Ecstasy and Rolls-Royce grille shape
+            trademarks to Volkswagen AG, Rolls-Royce plc chose to license the Rolls-Royce name and logo to BMW AG for
+            £40 million ($66 million), because Rolls-Royce plc had recently had joint business ventures with BMW.[11]
+
+            BMW's contract to supply engines and components to Rolls-Royce Motors allowed BMW to cancel the contract
+            with 12 months' notice. Volkswagen would be unable to re-engineer the Rolls-Royce and Bentley vehicles to
+            use other engines within that time frame. With the Rolls-Royce brand identification marks split between the
+            two companies and Volkswagen's engine supply in jeopardy, the two companies entered into negotiations.
+            Volkswagen agreed to sell BMW the Spirit of Ecstasy and grille shape trademarks and BMW agreed to continue
+            supplying engines and components until 2003. Volkswagen continued to produce Rolls-Royce branded vehicles
+            between 1998 and 2003. This gave BMW time to build a new Rolls-Royce administrative headquarters and
+            production facility on the Goodwood Estate near Chichester, West Sussex, and develop the Phantom, the first
+            Rolls-Royce from the new company. Rolls-Royce Motor Cars Limited became the exclusive manufacturer of
+            Rolls-Royce branded cars in 2003. Rolls-Royce announced in September 2014 that a new technology and
+            logistics centre would be built, which opened in 2016, 8 miles away from the main headquarters, in the
+            seaside resort town of Bognor Regis.[12][13]
+
+            Products
+            Current
+            Phantom
+            Main article: Rolls-Royce Phantom VIII
+
+            Rolls-Royce Phantom VIII Series II
+            Rolls-Royce unveiled the new Phantom at "The Great Eight Phantoms Exhibit", which would go into production
+            at the end of 2017, with sales starting in 2018. This is the current Flagship Model and the most expensive
+            production car made by Rolls-Royce Motor Cars.
+            A facelifted model, dubbed the Series II was revealed on May 12, 2022 has received subtle exterior changes &
+            4 additional wheel options.
+            The Phantom comes in 2 lengths, a standard version & an extended wheelbase version which added 200 mm of
+            length, exclusively for the rear passengers. The latter currently being the longest sedan currently in
+            production.
+            Ghost (Second Generation)
+            Main article: Rolls Royce Ghost § Second Generation
+
+            Rolls-Royce Ghost Second Generation (Series I)
+            The Current Rolls-Royce Ghost was unveiled on 1 September 2020 as a Rolls-Royce's current entry model.
+            An Extended Wheelbase version is available, adding 160 mm of length into the car for the rear occupants.
+            A facelifted model - the Series II was unveiled on August 10, 2024. Subtle changes were made to the
+            exterior, noticeably with the taillights.
+            Cullinan
+            Main article: Rolls Royce Cullinan
+
+            Rolls-Royce Cullinan (Series I)
+            After much anticipation, Rolls-Royce revealed the Cullinan in early 2018. The 5-door SUV shares the
+            "Architecture of Luxury" platform and many components with the Phantom.
+            The Cullinan also received a facelift, which was unveiled on July 5, 2024.
+            Spectre
+            Main article: Rolls-Royce Spectre
+
+            Rolls-Royce Spectre
+            Rolls-Royce's first all-electric car, and the most aerodynamic, the Spectre[14] was revealed on 18 October
+            2022. The Spectre is positioned between the Cullinan and the Phantom.
+            It introduces a redesigned Spirit of Ecstasy, with one leg forward, a lower, powerful stance, and more
+            realistic, and aerodynamic robes (commonly mistaken as wings).
+            Former
+            Phantom
+            Main article: Rolls-Royce Phantom (seventh generation)
+            Main article: Rolls-Royce Phantom Drophead Coupé
+            Main article: Rolls-Royce Phantom Coupé
+            Main article: Rolls-Royce Sweptail
+            2003–2016 – Phantom 4-door saloon. Launched in January 2003 at Detroit's North American International Auto
+            Show, this is the first model from Rolls-Royce Motor Cars Limited. The car has a 6.75 L V12 engine sourced
+            from BMW, but most components are unique to the car. Parts are sourced from Continental Europe and the UK.
+            Assembly, leatherwork, woodwork, and finishing are carried out in a new factory in Goodwood near Chichester,
+            Sussex. It received a facelift for the 2013 model year.
+
+            Rolls-Royce Phantom VII Series II
+            2005–2016 – Rolls-Royce Phantom Extended Wheelbase. This car's wheelbase is 250 mm longer than that of the
+            standard Phantom saloon. Just like its shorter counterpart, it also received a facelift of the 2013 model
+            year.[citation needed]
+            2007–2016 – Phantom Drophead Coupé (convertible)
+
+            Rolls-Royce Phantom Drophead Coupé
+            2008–2016 – Phantom Coupé
+
+            Rolls-Royce Phantom coupé
+            2017 – Rolls-Royce Sweptail was a one-off custom Phantom Coupé sold for $12.8 million after a 4-year
+            build[15] making it the most expensive new car ever sold at the time.[16]
+            Ghost (First Generation)
+            Main article: Rolls Royce Ghost § First Generation
+            2010–2020 – Rolls-Royce announced in September 2006 that it would develop a new four-door model named Ghost.
+            The Ghost will be smaller than the previous Rolls-Royce automobile launched, the Phantom. Only 20% of the
+            components would be sourced from BMW F01 7 Series and it will be positioned below the Phantom VII.
+            On 4 March 2014, the new Ghost Series II was revealed to the public at the Geneva Motor Show. It has a
+            facelift front with new LED headlights. The interior has had an update as well.
+
+            Rolls-Royce Ghost Series I
+            Dawn
+            Main article: Rolls-Royce Dawn
+            2015–2023[17] – Dawn 4-seater convertible. It was announced in time for the 2015 Frankfurt Motor
+            Show.[18][19]
+
+            Rolls-Royce Dawn
+            Wraith
+            Main article: Rolls Royce Wraith
+            2013–2022[20] – Wraith coupé. Rolls-Royce Motor Cars launched a new car at the Geneva Motor Show on 5 March
+            2013.[21] The new car, named the Rolls-Royce Wraith (in honour of the original Wraith built by the original
+            Rolls-Royce Limited from 1938 to 1939) is a luxury coupe, with a long bonnet and a sleek roof line, and is a
+            coupe version of the Ghost. It is powered by a 623 bhp, twin-turbocharged V12 engine connected to an
+            eight-speed gearbox. It is the fastest car made by Rolls-Royce Motor Cars.[22] Deliveries were expected to
+            begin by the end of 2013.[23] Rolls-Royce had stated that the Wraith would be the most powerful Rolls-Royce
+            motor car to that date.[24]
+
+            Rolls-Royce Wraith Black Badge
+            Concept vehicles
+            Rolls-Royce 100EX (2006)
+            Rolls-Royce 101EX (2006)
+            Rolls-Royce Hyperion[25] (2008; known as Pininfarina Hyperion)
+            Rolls-Royce Mini[26] (June 2009)
+            Rolls-Royce 200EX (2009; known as ″RR04″ also)
+            Rolls-Royce 102EX (2010)
+            Rolls-Royce 103EX (2016)[27]
+            Rolls-Royce Boat Tail (2021) is a custom-built concept car based on its predecessor, the Sweptail.
+            Production is limited to three units, two of which has since been revealed.
+            Rolls-Royce Droptail (2023) is currently Rolls-Royce's latest coachbuild project. Production is limited to
+            four units, three of which has since been revealed.
+            Sales</p>
+    </div>
+</body>
+
+</html>
